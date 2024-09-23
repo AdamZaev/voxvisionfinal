@@ -20,8 +20,33 @@ color: black;
     overflow-x: hidden;
  
 }
+
+.bodysize {
+
+ 
+  max-width: 1700px;  /* Set your desired max width */
+  margin: 0 auto;     /* Center the container */
+  width: 100%;        /* Make sure it adjusts to smaller screens */
+  padding: 0 20px; 
+
+}
+
+.description {
+
+
+  max-width: 1580px;  /* Set your desired max width */
+  margin: 0 auto;     /* Center the container */
+  width: 100%;        /* Make sure it adjusts to smaller screens */
+  padding: 0 20px; 
+
+
+
+}
+
+
 .backgroundcolors{
   position: absolute;
+	
  overflow-x: hidden;
 top: -90px;
 right: 0px;
@@ -1224,6 +1249,11 @@ cursor: pointer;
     margin-top: -180px;
     width: 100% ;
     height: 500px;
+       max-width: 1700px;  /* Set your desired max width */
+    margin: 0 auto;     /* Center the container */
+    width: 100%;        /* Make sure it adjusts to smaller screens */
+    
+  
     
    }
 
